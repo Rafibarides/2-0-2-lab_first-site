@@ -17,6 +17,10 @@ html,body
   background-color: black;
 }
 
+#page-three {
+  background-color: black;
+}
+
 div#top-bar {
   background-color: black;
   width: 100%;
@@ -150,7 +154,7 @@ div#product-display {
 
 #coverage {
   border-radius: 25px;
-  background-color: rgb(226, 223, 218);
+  background-color: rgb(244, 242, 239);
   align-self: center;
   margin-top: 15%;
   margin-left: 10%;
@@ -174,6 +178,7 @@ div#product-display {
 .write-up {
   text-align: center;
   margin: 5%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .article-title {
@@ -185,4 +190,96 @@ div#product-display {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#data-page-chart {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  position: relative;
+}
+
+#table-style {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 10%;
+}
+
+figure {
+  border: 1px #cccccc solid;
+  padding: 2%;
+  margin: 5%;
+  width: 30%;
+}
+
+#factory-pic {
+  width: 100%;
+}
+
+figcaption {
+  background-color: #d2b48c;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 12%;
+  font-size: 0.9em;
+  min-width: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+th, 
+td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+th {
+  background-color: #d2b48c;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+tr:last-of-type {
+  border-bottom: 2px solid #d2b48c;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+#descript {
+  color: #cccccc;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#write-up-para {
+  padding: 10%;
+  width: 60vh;
+}
+
+#breakdown {
+  color: #cccccc;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10%;
+  width: 70vh; 
+}
+
+#description {
+  background-color: rgb(20, 19, 19);
+  display: flex;
 }
